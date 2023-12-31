@@ -121,6 +121,7 @@ main {
     background-color: #155263;
     color: white;
     height: 100%;
+    min-width: 40vw;
     padding: 1em;
 }
 
@@ -129,7 +130,7 @@ main {
 }
 
 .hero-info > p {
-    font-size: 1.25em;
+    font-size: 1.1em;
 }
 
 /** Card Section **/
@@ -196,7 +197,7 @@ main {
 }
 
 .vacation-info > p {
-    font-size: 1.25em;
+    font-size: 1.1em;
 }
 
 /** Buttons **/
@@ -274,4 +275,25 @@ footer {
 
 footer > hr {
     width: 100%;
+}
+
+footer a:visited {
+    color: inherit;
+}
+
+footer a:link {
+    color: inherit;
+}
+
+footer a {
+    text-decoration: none;
+    color: inherit
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+main p{
+    font-size: 1em;
 }

@@ -90,7 +90,7 @@ header li {
     height: 100%;
 }
 
-li:hover {
+header li:hover {
     background-color: #b7522d;
 }
 
@@ -280,4 +280,21 @@ footer > hr {
     background-color: white;
     font-size: 1.25em;
     margin-top: 1em;
+}
+
+footer a:visited {
+    color: inherit;
+}
+
+footer a:link {
+    color: inherit;
+}
+
+footer a {
+    text-decoration: none;
+    color: inherit
+}
+
+footer a:hover {
+    text-decoration: underline;
 }

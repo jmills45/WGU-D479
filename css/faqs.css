@@ -275,3 +275,20 @@ footer {
 footer > hr {
     width: 100%;
 }
+
+footer a:visited {
+    color: inherit;
+}
+
+footer a:link {
+    color: inherit;
+}
+
+footer a {
+    text-decoration: none;
+    color: inherit
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

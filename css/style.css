@@ -90,8 +90,16 @@ header li {
     height: 100%;
 }
 
-li:hover {
+header li:hover {
     background-color: #b7522d;
+}
+
+header a:visited {
+    color: inherit;
+}
+
+header a:link {
+    color: inherit;
 }
 
 /** Main Content **/
@@ -131,7 +139,7 @@ main {
 }
 
 .hero-info > p {
-    font-size: 1.25em;
+    font-size: 1.1em;
 }
 
 /** Card Section **/
@@ -200,7 +208,7 @@ main {
 }
 
 .vacation-info > p {
-    font-size: 1.25em;
+    font-size: 1.1em;
 }
 
 /** Buttons **/
@@ -268,3 +276,21 @@ footer {
 footer > hr {
     width: 100%;
 }
+
+footer a:visited {
+    color: inherit;
+}
+
+footer a:link {
+    color: inherit;
+}
+
+footer a {
+    text-decoration: none;
+    color: inherit
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
